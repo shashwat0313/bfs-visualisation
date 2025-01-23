@@ -24,6 +24,8 @@ function delay(ms) {
 document.getElementById("rows").value = m
 document.getElementById("columns").value = n
 document.getElementById("interval").value = interval
+document.getElementById("startrow").value = start_i
+document.getElementById("startcolumn").value = start_j
 
 const diff = [[0, -1], [1, 0], [0, 1], [-1, 0]]
 const diff2 = [[-1, 1], [0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, -1], [-1, 0]]
