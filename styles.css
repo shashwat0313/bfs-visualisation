@@ -6,6 +6,10 @@
     margin: 0.1em;
 } */
 
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #root {
     display: grid;
     grid-template-columns: repeat(20, 1.1em);
